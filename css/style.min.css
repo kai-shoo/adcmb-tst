@@ -548,7 +548,9 @@ ul.bxslider {
         display: inline-block;
         width: 187px;
         height: 187px;
-        vertical-align: bottom; } }
+        vertical-align: middle;
+        margin-right: 20px;
+        transform: none; } }
   .reviews__avatar-wrapper--left {
     float: left; }
     @media (min-width: 1450px) {
