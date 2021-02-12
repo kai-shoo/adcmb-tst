@@ -1,0 +1,19 @@
+.button {
+  min-width: 117px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 5px;
+
+  background: #00c368;
+  border-radius: 8px;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 8px 16px rgba(0, 195, 104, 0.4);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

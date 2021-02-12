@@ -1,0 +1,32 @@
+.title {
+  position: relative;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 184px;
+    height: 4px;
+
+    background-color: #00c368;
+
+    transform: translateX(-50%);
+  }
+
+  &--desktop {
+    @media (max-width: 1050px) {
+      &::before {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.page,
+.page__body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e3a59;
+}
+
+.page__body {
+  @media (min-width: $desktop) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+.page__bottom {
+  @media (min-width: $header-bp) {
+    display: table;
+  }
+}
+
+.page__features {
+  @media (min-width: $desktop) {
+    margin-left: -80px;
+    margin-right: -80px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(226, 226, 226, 1) 0%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
+}

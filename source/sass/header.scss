@@ -1,0 +1,112 @@
+.header {
+  margin-bottom: 21px;
+}
+
+.header__wrapper {
+  @media (min-width: $header-bp) {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+    &::after {
+      content: '.';
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both;
+    }
+  }
+}
+
+.header__logo-wrapper {
+  display: block;
+  margin-top: 12px;
+  padding-right: 15px;
+  width: 216px;
+  height: 63px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $header-bp) {
+    display: block;
+    float: left;
+
+    width: 318px;
+    height: 93px;
+    margin-right: 90px;
+  }
+}
+
+.header__logo {
+  @media (min-width: $header-bp) {
+    width: 318px;
+    height: 93px;
+    vertical-align: middle;
+  }
+}
+
+.header__nav,
+.header__button {
+  display: none;
+
+  @media (min-width: $header-bp) {
+    display: block;
+  }
+}
+
+.header__nav {
+  @media (min-width: $header-bp) {
+    float: left;
+  }
+}
+
+.header__nav-item {
+  @media (min-width: $header-bp) {
+    display: inline-block;
+    margin-right: 90px;
+    margin-top: 50px;
+
+    &:last-child {
+      margin-right: 10px;
+    }
+  }
+}
+
+.header__nav-link {
+  @media (min-width: $header-bp) {
+    display: inline-block;
+    padding: 4px 5px;
+
+    color: #a6abbd;
+    text-decoration: none;
+    text-align: center;
+
+    border: 1px solid transparent;
+
+    &:hover,
+    &:focus {
+      color: black;
+      border-bottom: 1px solid #a6abbd;
+    }
+
+    &:active {
+      color: #a6abbd;
+      opacity: 0.3;
+    }
+  }
+}
+
+.header__button {
+  @media (min-width: $header-bp) {
+    display: block;
+  }
+}
+
+.header__button-wrapper {
+  float: right;
+  margin-top: 50px;
+}
+
+.header__nav-button {
+  display: block;
+}

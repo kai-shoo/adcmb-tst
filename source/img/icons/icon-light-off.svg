@@ -1,0 +1,20 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" rx="20" fill="#E7EBF0"/>
+<rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="url(#paint0_linear)" stroke-opacity="0.3" style="mix-blend-mode:hard-light"/>
+<rect x="8.5" y="4.5" width="23" height="23" rx="11.5" fill="white" stroke="#2E3A59"/>
+<rect x="16.5" y="32.5" width="7" height="4" rx="1.5" fill="#FFD058" stroke="#2E3A59"/>
+<path d="M14.5 26.5H25.5V33C25.5 33.8284 24.8284 34.5 24 34.5H16C15.1716 34.5 14.5 33.8284 14.5 33V26.5Z" fill="#A6ABBD" stroke="#2E3A59"/>
+<rect x="15" y="28" width="1" height="1" fill="#2E3A59"/>
+<rect x="24" y="28" width="1" height="1" fill="#2E3A59"/>
+<rect x="15" y="30" width="1" height="1" fill="#2E3A59"/>
+<rect x="24" y="30" width="1" height="1" fill="#2E3A59"/>
+<rect x="15" y="32" width="1" height="1" fill="#2E3A59"/>
+<rect x="24" y="32" width="1" height="1" fill="#2E3A59"/>
+<rect x="5.99023" y="33.8027" width="39.3129" height="1" transform="rotate(-45 5.99023 33.8027)" fill="#2E3A59"/>
+<defs>
+<linearGradient id="paint0_linear" x1="41.5385" y1="40.7692" x2="-2.15385" y2="-1.23077" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
